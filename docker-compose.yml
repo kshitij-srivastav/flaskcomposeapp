@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  service1:
+     build: ./f1
+     ports:
+     - 8000:8000
+  service2:
+     build: ./f2
+     ports:
+     - 5000:5006
